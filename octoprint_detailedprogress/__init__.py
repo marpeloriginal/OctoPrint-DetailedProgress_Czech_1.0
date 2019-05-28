@@ -138,11 +138,11 @@ class DetailedProgressPlugin(octoprint.plugin.EventHandlerPlugin,
 				# version check: github repository
 				type="github_release",
 				user="dattas",
-				repo="OctoPrint-DetailedProgress_Czech",
+				repo="OctoPrint-DetailedProgress_Czech_1.0",
 				current=self._plugin_version,
 
 				# update method: pip
-				pip="https://github.com/marpeloriginal/OctoPrint-DetailedProgress_Czech_1.0/archive/{target_version}.zip"
+				pip="https://github.com/marpeloriginal/OctoPrint-DetailedProgress_Czech_1.0/releases/{target_version}.zip"
 			)
 		)
 
